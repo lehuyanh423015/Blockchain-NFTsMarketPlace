@@ -1,0 +1,76 @@
+#############################################
+# GLOBAL / OS FILES
+#############################################
+.DS_Store
+Thumbs.db
+
+#############################################
+# NODE MODULES
+#############################################
+node_modules/
+frontend/node_modules/
+
+#############################################
+# ENV FILES (TUYỆT ĐỐI KHÔNG ĐƯỢC COMMIT)
+#############################################
+.env
+*.env
+.env.local
+frontend/.env.local
+frontend/.env*
+# Tuyệt đối không commit PRIVATE_KEY, JWT
+
+#############################################
+# HARDHAT BUILD ARTIFACTS
+#############################################
+artifacts/
+cache/
+
+# Sometimes Hardhat generates temporary typechain dirs
+typechain/
+typechain-types/
+
+#############################################
+# NEXT.JS BUILD ARTIFACTS
+#############################################
+.next/
+out/
+dist/
+
+#############################################
+# LOGS
+#############################################
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+#############################################
+# OS TEMP
+#############################################
+*.swp
+*.swo
+*.tmp
+
+#############################################
+# EDITOR / IDE CONFIGS
+#############################################
+.vscode/
+.idea/
+*.iml
+
+#############################################
+# FRONTEND GENERATED FILES (SAFE TO IGNORE)
+#############################################
+frontend/.next
+frontend/out
+frontend/dist
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+#############################################
+# ARTIFACTS COPIED TO FRONTEND
+#############################################
+frontend/artifacts/
